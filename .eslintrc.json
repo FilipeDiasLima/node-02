@@ -1,0 +1,14 @@
+{
+  "extends": ["plugin:prettier/recommended"],
+  "prettier/prettier": [
+    "error",
+    {
+      "singleQuote": false,
+      "semi": true
+    }
+  ],
+  "rules": {
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"]
+  }
+}
